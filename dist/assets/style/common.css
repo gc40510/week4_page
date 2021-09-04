@@ -1,0 +1,33 @@
+body{
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto; 
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 690px;
+    }
+}
+
+@media (max-width:767px){
+    .container{
+        max-width: 345px;
+    }
+}
+
+.text-bold{
+    font-weight:bold;
+}
